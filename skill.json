@@ -2,7 +2,7 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
-        "en-US": {
+        "es-ES": {
           "summary": "Play a text adventure game.",
           "examplePhrases": [
             "Alexa open text adventure",
