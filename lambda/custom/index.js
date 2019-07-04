@@ -1,6 +1,5 @@
 'use strict';
 
-var locale = event.request.locale;
 const Alexa = require('alexa-sdk');
 const story = 'Escape the Office Spanish.html';
 const TableName = null // story.replace('.html','').replace(/\s/g, "-");
@@ -38,16 +37,8 @@ const handlers = {
     if (this.event.session.attributes['room'] !== undefined) {
       var locale = event.request.locale;		
       var room = currentRoom(this.event);
-      if (locale == 'es-ES'){
-         var speechOutput = `Hola, estabas jugando antes y llegaste a la sala llamada ${room['$']['name']}. Te gustaria reanudar la partida? `;
-	  } else {
-         var speechOutput = `Hello, you were playing before and got to the room called ${room['$']['name']}. Would you like to resume? `;
-	  } 
-	  if (locale == 'es-ES') {
-	     var reprompt = `Diga, reanudar el juego, o, nuevo juego.`;
-      } else {		 
-         var reprompt = `Say, resume game, or, new game.`;
-	  }
+      var speechOutput = `Hello, you were playing before and got to the room called ${room['$']['name']}. Would you like to resume? `;	 
+      var reprompt = `Say, resume game, or, new game.`;
       speechOutput = speechOutput + reprompt;
       var cardTitle = `Restart`;
       var cardContent = speechOutput;
