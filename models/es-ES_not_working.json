@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "text adventure",
+      "invocationName": "aventura texto",
       "intents": [{
           "name": "AMAZON.CancelIntent"
         },
@@ -11,8 +11,8 @@
         {
           "name": "AMAZON.RepeatIntent",
           "samples": [
-            "where am I",
-            "describe the room"
+            "dónde estoy",
+            "describir la habitación"
           ]
         },
         {
@@ -21,27 +21,27 @@
         {
           "name": "ResumeGame",
           "samples": [
-            "resume game"
+            "reanudar juego"
           ]
         },
         {
           "name": "RestartGame",
           "samples": [
-            "new game"
+            "nuevo juego"
           ]
         },
         {
           "name": "Go",
           "samples": [
-            "go {direction}",
-            "run {direction}",
-            "walk {direction}",
-            "exit {direction}",
-            "explore {direction}",
-            "escape through {direction}",
-            "climb out {direction}",
-            "climb out the {direction}",
-            "take {direction}",
+            "ir a el o la {direction}",
+            "correr hacia el o la {direction}",
+            "andar a el o la {direction}",
+            "salir por el o la {direction}",
+            "explorar el o la {direction}",
+            "escapar a través de el o la {direction}",
+            "salir de el o la {direction}",
+            "salir de el o la {direction}",
+            "tomar el o la {direction}",
             "{direction}"
           ],
           "slots": [{
@@ -52,8 +52,8 @@
         {
           "name": "Page",
           "samples": [
-            "page {number}",
-            "turn to page {number}"
+            "página {number}",
+            "vaya a la página {number}"
           ],
           "slots": [{
             "name": "number",
@@ -63,32 +63,32 @@
         {
           "name": "Open",
           "samples": [
-            "open",
-            "open the door"
+            "abrir",
+            "abrir la puerta"
           ]
         },
         {
           "name": "Lock",
           "samples": [
-            "lock",
-            "lock the door"
+            "cerrar",
+            "cerrar la puerta"
           ]
         },
         {
           "name": "Jump",
           "samples": [
-            "jump"
+            "saltar"
           ]
         },
         {
           "name": "Fight",
           "samples": [
-            "fight",
-            "fight {npc}",
-            "fight the {npc}",
-            "battle {npc}",
-            "battle the {npc}",
-            "battle with the {npc}"
+            "luchar",
+            "luchar {npc}",
+            "luchar contra el o la {npc}",
+            "pelear {npc}",
+            "pelear con {npc}",
+            "pelear con el o la {npc}"
           ],
           "slots": [{
             "name": "npc",
@@ -100,91 +100,91 @@
           "name": "LIST_OF_DIRECTIONS",
           "values": [{
             "name": {
-              "value": "north"
+              "value": "norte"
             }
           }, {
             "name": {
-              "value": "south"
+              "value": "sur"
             }
           }, {
             "name": {
-              "value": "east"
+              "value": "este"
             }
           }, {
             "name": {
-              "value": "west"
+              "value": "oeste"
             }
           }, {
             "name": {
-              "value": "up"
+              "value": "arriba"
             }
           }, {
             "name": {
-              "value": "down"
+              "value": "abajo"
             }
           }, {
             "name": {
-              "value": "in"
+              "value": "dentro"
             }
           }, {
             "name": {
-              "value": "out"
+              "value": "fuera"
             }
           }, {
             "name": {
-              "value": "left"
+              "value": "izquierda"
             }
           }, {
             "name": {
-              "value": "right"
+              "value": "derecha"
             }
           }, {
             "name": {
-              "value": "turn around"
+              "value": "girar"
             }
           }, {
             "name": {
-              "value": "carry on"
+              "value": "llevar"
             }
           }, {
             "id": "desk",
             "name": {
-              "value": "desk",
-              "synonyms": ["table"]
+              "value": "mesa",
+              "synonyms": ["mesa"]
             }
           }, {
             "name": {
-              "value": "window"
+              "value": "ventana"
             }
           }, {
             "name": {
-              "value": "door"
+              "value": "puerta"
             }
           }, {
             "name": {
-              "value": "stairs"
+              "value": "escaleras"
             }
           }, {
             "name": {
-              "value": "elevator",
-              "synonyms": ["lift"]
+              "value": "ascensor",
+              "synonyms": ["ascensor"]
             }
           }, {
             "name": {
-              "value": "corridor",
-              "synonyms": ["hall", "hallway"]
+              "value": "corredor",
+              "synonyms": ["pasillo"]
             }
           }, {
             "name": {
-              "value": "first floor"
+              "value": "primera planta"
             }
           }, {
             "name": {
-              "value": "reception"
+              "value": "recepción"
             }
           }, {
             "name": {
-              "value": "basement"
+              "value": "sótano"
             }
           }]
         },
@@ -192,7 +192,7 @@
           "name": "LIST_OF_NON_PLAYING_CHARACTERS",
           "values": [{
             "name": {
-              "value": "spider",
+              "value": "araña",
               "synonyms": []
             }
           }]
