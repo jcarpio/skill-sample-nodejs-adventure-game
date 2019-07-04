@@ -36,6 +36,7 @@ const handlers = {
   'LaunchRequest': function() {
     console.log(`LaunchRequest`);
     if (this.event.session.attributes['room'] !== undefined) {
+      var locale = event.request.locale;		
       var room = currentRoom(this.event);
       if (locale == 'es-ES'){
          var speechOutput = `Hola, estabas jugando antes y llegaste a la sala llamada ${room['$']['name']}. Te gustaria reanudar la partida? `;
