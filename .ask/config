@@ -28,13 +28,13 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-adventure-game-default",
             "handler": "index.handler",
-            "revisionId": "d39b37f8-3831-4700-a8d3-72bc9dc64430",
+            "revisionId": "4c1d03d4-6953-4212-845a-e6d5a5159adf",
             "runtime": "nodejs8.10"
           }
         ],
         "interactionModel": {
           "es-ES": {
-            "eTag": "7b4f630868ecc1044ef6eed726ba7e03"
+            "eTag": "fd125f4de2e176ba1bb761696e868ffc"
           }
         }
       }
