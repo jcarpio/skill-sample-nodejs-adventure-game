@@ -149,8 +149,7 @@
           }, {
             "id": "mesa",
             "name": {
-              "value": "mesa",
-              "synonyms": ["mesa"]
+              "value": "mesa"
             }
           }, {
             "name": {
