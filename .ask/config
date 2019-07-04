@@ -28,7 +28,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-adventure-game-default",
             "handler": "index.handler",
-            "revisionId": "a2c9263c-ef67-4956-9983-59ddc8efb5f9",
+            "revisionId": "cc44b75b-5339-456f-9611-93e5d0e29edf",
             "runtime": "nodejs8.10"
           }
         ],
