@@ -37,7 +37,7 @@
             "run {direction}",
             "walk {direction}",
             "exit {direction}",
-            "explore {direction}",
+            "explorar {direction}",
             "escape through {direction}",
             "climb out {direction}",
             "climb out the {direction}",
