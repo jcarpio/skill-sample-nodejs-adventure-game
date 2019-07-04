@@ -147,10 +147,10 @@
               "value": "carry on"
             }
           }, {
-            "id": "desk",
+            "id": "mesa",
             "name": {
-              "value": "desk",
-              "synonyms": ["table"]
+              "value": "mesa",
+              "synonyms": ["mesa"]
             }
           }, {
             "name": {
