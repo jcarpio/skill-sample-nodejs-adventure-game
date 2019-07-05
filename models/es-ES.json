@@ -33,7 +33,8 @@
         {
           "name": "Go",
           "samples": [
-            "go {direction}",
+            "ir {direction}",
+			"subir {direction}",
             "run {direction}",
             "caminar {direction}",
             "exit {direction}",
@@ -144,7 +145,8 @@
             }
           }, {
             "name": {
-              "value": "carry on"
+              "value": "continuar",
+              "synonyms": ["proseguir", "seguir adelante"]   			  
             }
           }, {
             "id": "mesa",
@@ -174,15 +176,15 @@
             }
           }, {
             "name": {
-              "value": "first floor"
+              "value": "primera planta"
             }
           }, {
             "name": {
-              "value": "reception"
+              "value": "recepcion"
             }
           }, {
             "name": {
-              "value": "basement"
+              "value": "sotano"
             }
           }]
         },
