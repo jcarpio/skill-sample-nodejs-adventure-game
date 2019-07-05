@@ -35,13 +35,13 @@
           "samples": [
             "go {direction}",
             "run {direction}",
-            "walk {direction}",
+            "caminar {direction}",
             "exit {direction}",
             "explorar {direction}",
             "escapar por {direction}",
             "salir por {direction}",
             "salir por the {direction}",
-            "take {direction}",
+            "tomar {direction}",
             "{direction}"
           ],
           "slots": [{
@@ -132,15 +132,15 @@
             }
           }, {
             "name": {
-              "value": "left"
+              "value": "izquierda"
             }
           }, {
             "name": {
-              "value": "right"
+              "value": "derecha"
             }
           }, {
             "name": {
-              "value": "turn around"
+              "value": "darse la vuelta"
             }
           }, {
             "name": {
@@ -161,17 +161,16 @@
             }
           }, {
             "name": {
-              "value": "stairs"
+              "value": "escaleras"
             }
           }, {
             "name": {
-              "value": "elevator",
-              "synonyms": ["lift"]
+              "value": "ascensor"
             }
           }, {
             "name": {
-              "value": "corridor",
-              "synonyms": ["hall", "hallway"]
+              "value": "pasillo",
+              "synonyms": ["corredor"]
             }
           }, {
             "name": {

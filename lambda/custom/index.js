@@ -37,7 +37,7 @@ const handlers = {
     if (this.event.session.attributes['room'] !== undefined) {
       var locale = event.request.locale;		
       var room = currentRoom(this.event);
-      var speechOutput = `Hello, you were playing before and got to the room called ${room['$']['name']}. Would you like to resume? `;	 
+      var speechOutput = `Hola, estabas jugando antes y llegaste a la sala llamada ${room['$']['name']}. Te gustaria continuar la partida? `;	 
       var reprompt = `Say, resume game, or, new game.`;
       speechOutput = speechOutput + reprompt;
       var cardTitle = `Restart`;
