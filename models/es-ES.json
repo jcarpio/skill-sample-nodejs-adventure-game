@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "text adventure",
+      "invocationName": "juego aventura",
       "intents": [{
           "name": "AMAZON.CancelIntent"
         },
