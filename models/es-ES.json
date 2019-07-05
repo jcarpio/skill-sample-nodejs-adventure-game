@@ -38,9 +38,9 @@
             "walk {direction}",
             "exit {direction}",
             "explorar {direction}",
-            "escape through {direction}",
-            "climb out {direction}",
-            "climb out the {direction}",
+            "escapar por {direction}",
+            "salir por {direction}",
+            "salir por the {direction}",
             "take {direction}",
             "{direction}"
           ],
@@ -64,14 +64,14 @@
           "name": "Open",
           "samples": [
             "open",
-            "open the door"
+            "open the puerta"
           ]
         },
         {
           "name": "Lock",
           "samples": [
             "lock",
-            "lock the door"
+            "lock the puerta"
           ]
         },
         {
@@ -153,11 +153,11 @@
             }
           }, {
             "name": {
-              "value": "window"
+              "value": "ventana"
             }
           }, {
             "name": {
-              "value": "door"
+              "value": "puerta"
             }
           }, {
             "name": {

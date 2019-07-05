@@ -16,7 +16,7 @@
       },
       "resources": {
         "manifest": {
-          "eTag": "9a916928315b4f927d11ac81708fc86f"
+          "eTag": "9f32464293da2d6a2d1d0495e24df862"
         },
         "lambda": [
           {
@@ -28,13 +28,13 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-adventure-game-default",
             "handler": "index.handler",
-            "revisionId": "5b7e7031-de15-4c6b-80d3-bc3b4e166182",
+            "revisionId": "de52d31a-ea2d-40df-a005-af9500292b3d",
             "runtime": "nodejs8.10"
           }
         ],
         "interactionModel": {
           "es-ES": {
-            "eTag": "38ca676b3df2c1d25926ced67db81fda"
+            "eTag": "95ed8c6dd254a7a0063a7f236a66db8c"
           }
         }
       }
