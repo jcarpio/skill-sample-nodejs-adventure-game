@@ -105,10 +105,10 @@ const handlers = {
       }
       if (reprompt === "") {
         if (!m[1].toLowerCase().startsWith('if you')) {
-          reprompt = "You can";
+          reprompt = "Puedes";
         }
       } else {
-        reprompt = `${reprompt} or`;
+        reprompt = `${reprompt} o`;
       }
       reprompt = `${reprompt} ${m[1]}`;
     }
